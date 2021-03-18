@@ -17,5 +17,48 @@
         android:layout_height="wrap_content"
         android:text="new Button"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the color of sky?"
+        android:textSize="20sp"
+        />
+    <RadioGroup
+        android:id="@+id/skyColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            />
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            />
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            />
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yello"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:text="check"
+        />
 
 </LinearLayout>
