@@ -11,11 +11,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import com.ncertguruji.mcqtabbedapp.Fragment1;
 import com.ncertguruji.mcqtabbedapp.Fragment2;
 import com.ncertguruji.mcqtabbedapp.R;
+import org.jetbrains.annotations.NotNull;
 
-/**
- * A [FragmentPagerAdapter] that returns a fragment corresponding to
- * one of the sections/tabs/pages.
- */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
@@ -27,6 +24,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
+    @NotNull
     @Override
     public Fragment getItem(int position) {
         Fragment fragment = null;
@@ -49,7 +47,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
         return 2;
     }
 }

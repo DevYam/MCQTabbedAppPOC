@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:gravity="center">
 
     <TextView
@@ -9,6 +10,12 @@
         android:layout_height="wrap_content"
         android:text="MCQ"
         android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/nfButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new Button"
         />
 
 </LinearLayout>
